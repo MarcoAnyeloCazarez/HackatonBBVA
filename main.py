@@ -4,12 +4,24 @@ import seaborn as sns
 import pandas as pd
 import os.path
 import pathlib
+from PIL import Image
+from joblib import load
+from sklearn.ensemble import RandomForestRegressor
+from sklearn import model_selection
+import pickle
 
-st.title("Cotiza tu Patrimonio")
 
+
+image = Image.open('static/logo.png')
+
+from utils import normalizar_value
+
+st.title("Conoce el valor de tu patrimonio")
+
+st.sidebar.image(image,width=180)
+st.sidebar.write("A través de nuestra plataforma puedes conocer el valor comercial de tú patrimonio. Nuestro servicio utiliza el conocimiento sistematizado de los valuadores y el desarrollo de la región donde se ubica tú propiedad.")
 add_input_mail = st.sidebar.text_input("Email:",type="default")
 
-st.text("Conoce el valor de tu patrimonio")
 
 tab1, tab2= st.tabs(["Individual","Conjunto"])
 
@@ -42,7 +54,17 @@ with tab2:
         for i in range(0, min(5, len(data))):
             st.session_state["preview"] += data[i]
         df = pd.read_csv(uploaded_file)
+
+        #Preprocesamiento 
+        df["Área Terreno"] = df["Área Terreno"].apply(lambda x:normalizar_value(x) )
+
         df.to_csv("data/demo.csv")
+        #cargamos el modelo
+        #clf = load('data/modelPredict.joblib') 
+        f_myfile = open('data/modelo.sav', 'rb')
+        #with open("data/modelo.sav", 'wb') as f:
+        model_br = pickle.load(f_myfile)
+        st.write(type(model_br))
         st.write(df)
     #preview = st.text_area("CSV Preview", "", height=150, key="preview")
     #upload_state = st.text_area("Upload State", "", key="upload_state")
@@ -62,3 +84,4 @@ def upload():
         destination_file.close()
         st.session_state["upload_state"] = "Saved " + complete_name + " successfully!"
         st.button("Upload file to Sandbox", on_click=upload)
+
