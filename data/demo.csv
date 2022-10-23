@@ -1,0 +1,21 @@
+,Fecha entrega del Informe,Tipo de vía,Piso,Departamento,Provincia,Distrito,Número de estacionamiento,Depósitos,Latitud (Decimal),Longitud (Decimal),Categoría del bien,Posición,Número de frentes,Edad,Elevador,Estado de conservación,Método Representado,Moneda principal para cálculos,Área Terreno,Área Construcción,Valor comercial
+0,44679.791666667,2,1,Lima,Lima,Magdalena del Mar,,,-12.1201435,-77.0239598,Departamento,Exterior,2.0,3.0,1,Bueno,Comparación de mercado (directo),USD,0.0,81.56,120708.8
+1,44678.791666667,6,4,Lima,Lima,San Juan de Lurigancho,1.0,,-12.0225094,-76.833715,Local Comercial,Exterior,1.0,42.0,2,Regular,Costos o reposición (directo),USD,410.0,0.0,192225.0
+2,44678.791666667,2,5,Lima,Lima,Santiago de Surco,1.0,,-12.0896856,-77.0684536,Departamento,Exterior,1.0,16.0,2,Bueno,Comparación de mercado (directo),USD,0.0,90.13,137886.28
+3,44678.791666667,10,2,Lima,Lima,Pachacamac,,1.0,-12.0957584,-76.9813229,Vivienda Unifamiliar,Exterior,,,2,Bueno,Costos o reposición (directo),USD,120.0,0.0,44400.0
+4,44678.791666667,1,3,Lima,Lima,San Isidro,,,-12.0153092,-76.874213,Departamento,Exterior,0.0,1.0,1,Muy bueno,Comparación de mercado (directo),PEN,0.0,45.0,111600.0
+5,44678.791666667,2,2,Lima,Lima,La Victoria,,,-12.0957639,-77.02336,Local Comercial,Exterior,,27.0,2,Bueno,Comparación de mercado (directo),USD,0.0,26.72,604139.2
+6,44678.791666667,3,2,Lima,Lima,Santiago de Surco,1.0,,-12.0297405,-76.9455815,Departamento,Exterior,,3.0,2,Bueno,Comparación de mercado (directo),PEN,0.0,155.03,262095.12
+7,44678.791666667,1,2,Lima,Lima,Santiago de Surco,1.0,,-11.899533,-77.0576157,Departamento,Interior,1.0,1.0,1,Muy bueno,Comparación de mercado (directo),USD,0.0,177.87,298389.0
+8,44677.791666667,3,1,Lima,Lima,La Victoria,1.0,,-12.0766427,-77.0506477,Departamento,Exterior,1.0,2.0,2,Malo,Comparación de mercado (directo),USD,0.0,88.12,144249.8
+9,44677.791666667,1,4,Lima,Lima,Ate,,,-5.1856924,-80.6545414,Departamento,Exterior,1.0,0.0,1,Bueno,Comparación de mercado (directo),USD,0.0,69.09,102267.12
+10,44677.791666667,1,5,Lima,Lima,Ate,,,-12.1196524,-77.0057059,Departamento,Exterior,1.0,0.0,2,Bueno,Comparación de mercado (directo),USD,0.0,71.96,104563.2
+11,44677.791666667,2,1,Lima,Lima,Breña,,,-12.1363533,-77.0023247,Departamento,Exterior,,0.0,1,Muy bueno,Comparación de mercado (directo),USD,0.0,91.0,137410.0
+12,44677.791666667,1,1,Lima,Lima,San Isidro,,,-12.05287,-77.006517,Departamento,Interior,3.0,1.0,1,Muy bueno,Comparación de mercado (directo),USD,0.0,45.05,117580.5
+13,44677.791666667,10,2,La Libertad,Trujillo,Huanchaco,,,-8.1114492,-79.0260459,Terreno Urbano,Exterior,1.0,,2,Bueno,Costos o reposición (directo),USD,140.0,140.0,52000.0
+14,44677.791666667,1,3,Lima,Lima,San Isidro,1.0,,-12.090449,-77.018342,Vivienda Unifamiliar,Exterior,2.0,1.0,2,Muy bueno,Comparación de mercado (directo),USD,0.0,167.77,336684.19
+15,44677.791666667,1,4,Lima,Lima,Ate,,,-12.112711,-76.9643341,Departamento,Exterior,1.0,47.0,2,Bueno,Comparación de mercado (directo),USD,0.0,123.35,134848.86
+16,44677.791666667,3,4,Lima,Lima,Pueblo Libre,,,-12.0384343,-76.9570281,Departamento,Exterior,1.0,12.0,1,Bueno,Comparación de mercado (directo),USD,0.0,75.8,106120.0
+17,44676.791666667,1,3,Lima,Lima,Santiago de Surco,,,-12.064683,-77.01366,Departamento,Exterior,2.0,1.0,2,Muy bueno,Comparación de mercado (directo),USD,0.0,149.58,253035.51
+18,44676.791666667,10,5,Piura,Piura,Veintiseis de Octubre,,,-12.0621164,-76.9497108,Vivienda Unifamiliar,Exterior,1.0,56.0,0,Bueno,Costos o reposición (directo),USD,200.0,333.58,170336.25
+19,44676.791666667,1,2,Lima,Lima,Santiago de Surco,,,-12.1213057,-76.9997372,Vivienda Unifamiliar,Interior,1.0,48.0,2,Bueno,Costos o reposición (directo),PEN,165.3,135.0,295212.15
